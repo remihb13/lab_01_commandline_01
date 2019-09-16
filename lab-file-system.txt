@@ -15,11 +15,11 @@ Follow the instructions line-by-line.
 ==========
 2. Create a directory called mtec1002.
 ----------
-
+mkdir mtec1002
 ==========
 3. Change your directory so that you're in mtec1002.
 ----------
-
+cd mtec1002
 ==========
 4. Type:
 
@@ -31,7 +31,7 @@ If it doesn't start at #1 again, or ask for help before moving on!
 
 Copy and paste the output of pwd below.
 ----------
-
+/Users/student
 
 
 ==========
@@ -42,6 +42,14 @@ $ ls
 
 Copy and paste the output below.
 ----------
+AMALogger20190109.log	Desktop			Pictures		isus
+AMALogger20190308.log	Documents		Public			mtec1003
+AMALogger20190909.log	Downloads		QLData			pymel.log
+Adlm			Library			Things			xgen
+Adobe			MPLABXProjects		animals
+Applications		Movies			
+Creative Cloud Files	Music			ipe.properties
+v314-ent-004:~ student$ 
 
 
 
@@ -61,7 +69,6 @@ Copy and paste the output below.
 
 $ mkdir -p foo/bar/baz/qux
 $ ls
-
 Copy and paste the output below.
 ----------
 
@@ -203,7 +210,7 @@ lemon
 
 Use only one command to make all of these new directories.  Write what command you used below:
 ----------
-
+mkdir -p pineapple/orange/strawberry/lemon
 
 
 ==========
@@ -211,7 +218,7 @@ Use only one command to make all of these new directories.  Write what command y
 
 Write the command you used to create the directory below:
 ----------
-
+mkdir aardvark
 
 
 ==========
@@ -239,7 +246,7 @@ What command did you use?
 
 What command did you use?
 ----------
-
+cd foo/bar/baz
 
 
 ==========
@@ -247,30 +254,30 @@ What command did you use?
 
 What command did you use?
 ----------
-
+cd ../..
 
 ==========
 24. What command is used to delete empty directories?
 ----------
-
+rmdir
 
 
 ==========
 25. What command is used to print out your current working directory?
 ----------
-
+pwd
 
 
 ==========
 26. What flag do I pass to ls to print out all files?
 ----------
-
+-a
 
 
 ==========
 27. What's the shortcut for home directory?
 ----------
-
+~
 
 
 ==========
